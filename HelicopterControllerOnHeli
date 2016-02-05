@@ -1,0 +1,19 @@
+bool powerStatus = false;
+int rotorSpeed = 0;
+int forwardSpeed = 0;
+int backwardSpeed = 0;
+
+void setup() {
+  pinMode(rotorRear, OUTPUT);
+  pinMode(rotorFront, OUTPUT);
+}
+
+void forward() {
+  digitalWrite(rotorFront, rotorSpeed - forwardSpeed);
+  digitalWrite(rotorRear, rotorSpeed + fowardSpeed);
+}
+
+void backward() {
+  digitalWrite(rotorFront, rotorSpeed + backwardSpeed)
+}
+
