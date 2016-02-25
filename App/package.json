@@ -1,0 +1,13 @@
+{
+  "name": "create-app",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Max Zitnick <maxzitnick@gmail.com (http://maxzitnick.me)",
+  "devDependencies": {
+    "electron-prebuilt": "^0.28.3"
+  }
+}
